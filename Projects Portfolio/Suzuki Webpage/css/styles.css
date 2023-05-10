@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* Fonts and colors 
+ grey rgb(74, 74, 77)
+ */
+
+
+/* Fonts and colors */
+
+/* Default settings */
+
+.division {
+  
+    margin: 0px auto;
+}
+
+.logo {
+    width: 160px;
+    height: 40px;
+    padding: 30px 20px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 0 10px;
+}
+
+/* Default settings Ending*/
+
+/* Navbar */
+.navbar a {
+    margin: 15px;
+    padding: 30px 20px;
+    text-decoration: none;
+    vertical-align: middle;
+    transition: 0.5s;
+    font-weight: bold;
+    color: rgb(15, 15, 15);
+    border-bottom: 4px solid white;
+}
+
+.navbar .fa-magnifying-glass {
+    margin: 15px;
+    padding: 30px 20px;
+}
+
+.navbar a:hover{
+    border-bottom: 4px solid red;
+    color: red;
+}
+
+.fas {
+    transition: 1s;
+}
+
+.fas:hover {
+    transform: rotate(180deg);
+}
+
+/* Navbar */
+
+/* Hero */
+
+.banner-container {
+  background: url("/img/carros/audiS8.jpg");
+  background-size: cover;
+  height: 700px;
+}
+
+.banner-text {
+    width: 35%;
+    color: aliceblue;
+    padding-top: 6%;
+    padding-left: 5%;
+}
+
+
+
+.car-btn1,
+.car-btn2 {
+    margin: 10px 30% 0px 0px;
+    text-decoration: none;
+    padding: 16px 20px;
+    font-size: 16px;
+    line-height: 16px;
+    display: block;
+    text-align: center;
+    font-weight: 900;
+} 
+
+.car-btn1 {
+    background-color: red;
+    color: aliceblue;
+}
+
+.car-btn2 {
+    color: red;
+}
+
+.banner-container hr {
+    width: 100%;
+    height: 3px;
+    background-color: aliceblue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+/* Hero */
