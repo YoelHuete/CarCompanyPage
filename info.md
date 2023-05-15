@@ -39,6 +39,14 @@ Se crea el primer slider, html y css, luego se incluira en un
 documento de JS para que funcione como un objeto de informacion
 
 
+<!-- mayo 14 -->
+
+Se crea el image slider con algunos carros de referencia
+Se empieza a trabajar en lña siguiente seccion 
+
+
+
+
 
 
 

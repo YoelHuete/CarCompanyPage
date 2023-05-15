@@ -31,7 +31,7 @@ body {
 .flex {
     display: flex;
     justify-content: space-between;
-    padding: 5px;
+    padding: 5px 5px 0px 5px;
     margin: 0 10px;
 }
 
@@ -93,6 +93,7 @@ body {
     display: block;
     text-align: center;
     font-weight: 900;
+
 } 
 
 .car-btn1 {
@@ -100,11 +101,22 @@ body {
     color: aliceblue;
 }
 
+.car-btn1:hover {
+    background-color: rgb(255, 89, 89);
+    color: aliceblue;
+}
+
+.car-btn2:hover {
+    background-color: rgb(255, 255, 255);
+    color: aliceblue;
+    color: rgb(74, 74, 77);
+}
+
 .car-btn2 {
     color: red;
 }
 
-.banner-container hr {
+.slider-container hr {
     width: 100%;
     height: 3px;
     background-color: aliceblue;
@@ -115,9 +127,20 @@ body {
 
 /* Slider */
 
+.banner-heading {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.banner-paragraph {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
 .slider-container {
    width: 100%;
-   height: 800px;
+   height: 700px;
    display: flex;
    align-items: center;
    justify-content: center;
@@ -125,7 +148,7 @@ body {
 
 .swiper-slide img {
     width: 100%;
-    height: 800px;
+    height: 720px;
 
 }
 
@@ -140,3 +163,52 @@ body {
 
 
 /* Hero */
+
+/* CAR INFO */
+
+.car-info {
+    text-align: center;
+    margin-top: 80PX;
+
+}
+
+.car-info h2 {
+    font-size: 35px;
+
+}
+
+.car-select {
+    width: 600px;
+    margin: 10px auto;    
+    display: flex;
+    align-items: center;
+    justify-content:space-between
+}
+
+.car-select h4 {
+    padding: 10px;
+    margin: 10px;
+    font-size: 25px;
+}
+
+.car-mini {
+    width: 1200px;
+    margin: 15px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.car-mini-image {
+    width: 280px;
+    height: 220px;
+}
+
+
+
+.car-mini-image img {
+    width: 240px;
+    height: 180px;
+}
+
+/* CAR INFO */
