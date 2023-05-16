@@ -314,3 +314,89 @@ body {
 }
 
 /* CAR INFO */
+
+/* SERVICES */
+
+.services {
+    width: 1200PX;
+    margin: 150PX auto;
+    text-align: center;
+}
+
+.services h3 {
+  font-size: 45px;
+}
+
+.services h4 {
+    font-size: 30px;
+    margin: 25px 0;
+  }
+
+.services-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0;
+}
+
+.services-section {
+    margin-top: 25px;
+    width: 350PX;
+}
+
+.services-section .fa-solid {
+   font-size: 50px;
+   color: red;
+}
+
+.services-section p {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+/* SERVICES */
+
+/* Info */
+
+.information {
+    width: 1400px;
+    margin: 150px auto;
+    text-align: center;
+    z-index: 2;
+}
+
+.information h3 {
+    font-size: 40px;
+    margin: 50px;
+}
+
+.info-section {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    color: aliceblue;
+}
+
+.image-info-section {
+    width: 450px;
+    height: 350px;
+}
+
+.image-info-section a {
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    transition: 0.5s;
+}
+
+.image-info-section a:hover {
+    color: rgb(41, 41, 41);
+    font-weight: bold;
+    font-size: 25px;
+    opacity: 0.7;
+}
+
+.img-info {
+    width: 100%;
+}
+
+
+/* Info */

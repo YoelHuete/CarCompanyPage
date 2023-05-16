@@ -44,6 +44,13 @@ documento de JS para que funcione como un objeto de informacion
 Se crea el image slider con algunos carros de referencia
 Se empieza a trabajar en lña siguiente seccion 
 
+SE UTILIZA JAVASCRIPT PARA CREAR EL IMAGE SLIDER
+Y SE UTILIZA CSS-JS PARA INTERCAMBIAR EL CARRO CUANDO SE DA CLICK
+
+<!-- mayo 15 -->
+se va trabajar en la parte de servicios
+icono con texto y anchor tags
+
 
 
 
