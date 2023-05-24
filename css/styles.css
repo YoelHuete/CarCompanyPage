@@ -406,9 +406,44 @@ body {
 /* video section */
 
 .video-section {
-    width: 1400px;
     margin: 150px auto;
     text-align: center;
 }
 
+.video-section h3 {
+    font-size: 45px;
+    margin: 25px 0;
+}
+
+.video-section p {
+    font-size: 20px;
+    margin: 25px 0;
+}
+
+.video-container {
+    width: 100%;
+    height: fit-content;
+    margin: 50px 0;
+}
+
 /* video section */
+
+/* footer */
+
+.footer {
+    width: 1300px;
+    margin: 50px auto;
+}
+
+.heading-footer {
+    display: flex;
+}
+
+.center-footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0;
+    text-align: left;
+}
+
+/* footer */
