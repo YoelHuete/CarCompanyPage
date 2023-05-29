@@ -25,3 +25,15 @@ const swiper = new Swiper('.swiper', {
     // update the car price
     document.querySelector('.price').innerText = price;
   }
+
+  //Hamburguer menu
+
+  $(document).ready(function() {
+    var menuItems = $('#menuItems');
+    var hamburgerMenu = $('.hamburger-menu');
+  
+    hamburgerMenu.on('click', function() {
+      menuItems.slideToggle();
+      hamburgerMenu.toggleClass('active');
+    });
+  });

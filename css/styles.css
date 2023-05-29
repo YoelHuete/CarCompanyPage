@@ -475,9 +475,6 @@ body {
 /* Media query */
 
 @media (max-width: 1400px) {
-    body {
-        color: blue;
-       }
 
     .services,
     .information,
@@ -488,9 +485,6 @@ body {
 }
 
 @media (max-width: 1200px) {
-    body {
-        color: red;
-       }
     
        .services {
         width: 800px;
@@ -557,9 +551,138 @@ body {
     }
 }
 
-@media (max-width: 900px) {
+@media (min-width: 900px) {
+    .hamburger-menu {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 900px) {
+    #menuItems {
+      display: none;
+    }
+
+    .hamburger-menu {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      cursor: pointer;
+    }
+  
+    .line {
+      width: 40px;
+      height: 10px;
+      background-color: #000;
+      transition: transform 0.3s ease;
+      background-color: red;
+    }
+  
+    .hamburger-menu.active .line:nth-child(1) {
+      transform: rotate(45deg) translate(5px, 5px);
+    }
+  
+    .hamburger-menu.active .line:nth-child(2) {
+      opacity: 0;
+    }
+  
+    .hamburger-menu.active .line:nth-child(3) {
+      transform: rotate(-45deg) translate(4px, -4px);
+    }
+
+    .slider-container {
+        margin-top: 30px;
+     }
+
+    .navbar a {
+        margin: 5px;
+        padding: 5px 5px;
+        display: block;
+        border-bottom: 1px solid white;
+    }
+
+    .navbar a:hover{
+        border-bottom: 1px solid red;
+        color: red;
+    }
+
+    .car-info {
+        text-align: center;
+        margin-top: 60px;
+        width: 600px;
+    }
+    
+    .car-info h2 {
+        font-size: 30px;
+    
+    }
+    
+    
+    .car-mini {
+        width: 550px;
+        margin-left: 150px;
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }    
+    
+    
+    .car-mini-image img {
+        width: 250px;
+        height: 250px;
+        margin: 10px auto;
+        
+    }
+    
+    .car-show-image {
+        width: 60%;
+        height: 400px;
+    }
+    
+    .car-show-info {
+        width: 35%;
+    }
+    
+    .show-btn1,
+    .show-btn2 {
+        width: 120px;
+        height: 25px;
+        padding: 10px 10px;
+        font-size: 11px; 
+        line-height: 12px;
+    }
+
+    .services {
+        width: 600PX;
+        margin: 50PX auto;
+    }
+
+    .services-section .fa-solid {
+        font-size: 40px;
+        color: red;
+     }
+
+     .information {
+        width: 450px;
+        margin: 150px auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .info-section {
+        display: block;
+        margin: 10px auto;
+    }
+
+    .footer {
+        width: 580px;
+        margin: 50px auto;
+    }
+
+  }
+
+@media (max-width: 600px) {
     body {
-        color: yellow;
+        color: red;
        }
 }
 /* Media query */

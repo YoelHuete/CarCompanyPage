@@ -8,25 +8,30 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
-    
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
     
 </head>
 <body>
     <!-- Header -->
+
     <nav class="navbar division">
-     <div class="flex">
-        <div>
-            <img src="img/logo1.jpg" alt="brand logo" class="logo">
-        </div>
         <div class="flex">
+          <div>
+            <img src="img/logo1.jpg" alt="brand logo" class="logo">
+          </div>
+          <div class="flex" id="menuItems">
             <a href="" class="AnchorNav">Modelos <i class='fas fa-angle-down'></i></a>
             <a href="" class="AnchorNav">Postventa <i class='fas fa-angle-down'></i></a>
             <a href="" class="AnchorNav">Sucursales</a>
             <a href="" class="AnchorNav">Usados</a>
-            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <div class="hamburger-menu">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+          </div>
         </div>
-     </div>
-    </nav>
+      </nav>
     
 
     <!-- Header Ending-->
@@ -236,17 +241,7 @@
             </div>
             
         </div>
-        <div class="center-footer">
-            <div>
-                <h3>COMPACTOS Y SEDANES </h3>
-                <p>Alto 800</p>
-                <p>S-Presso</p>
-                <p>Swift Revolution</p>
-                <P>Baleno</P>
-                <P>Swift Dzire</P>
-                <P>Ciaz</P>
-            </div>
-          
+        <div class="center-footer">          
             <div>
                 <h3>POSTVENTA</h3>
                 <p>Campaña de Seguridad</p>
